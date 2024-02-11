@@ -1,0 +1,627 @@
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~
+$
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~
+$ git config --global user.name "aiescharya@gmail.com"
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~
+$ git config --global user.email "aiescharya@gmail.com"
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~
+$ cd "C:\Users\aiescharya.gunasekar\Documents\My"
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/My
+$ git init
+Initialized empty Git repository in C:/Users/aiescharya.gunasekar/Documents/My/.git/
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/My (master)
+$ git commit -m "first commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        DesignPatterns/
+        HotelsRepo/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/My (master)
+$ git remote add origin https://github.com/aiescharya/Design-Patterns.git
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/My (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/aiescharya/Design-Patterns.git'
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/My (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/aiescharya/Design-Patterns.git'
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/My (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/aiescharya/Design-Patterns.git'
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/My (master)
+$ git branch -m main master
+fatal: No branch named 'main'.
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/My (master)
+$ git fetch origin
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 868 bytes | 54.00 KiB/s, done.
+From https://github.com/aiescharya/Design-Patterns
+ * [new branch]      master     -> origin/master
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/My (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/aiescharya/Design-Patterns.git'
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/My (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/My (master)
+$ git push --set-upstream origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/aiescharya/Design-Patterns.git'
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/My (master)
+$ cd ..
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents
+$ cd repo/
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo
+$ git fetch
+fatal: not a git repository (or any of the parent directories): .git
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo
+$ git clone https://github.com/aiescharya/Design-Patterns.git
+Cloning into 'Design-Patterns'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo
+$ git commit -m "first commit"
+fatal: not a git repository (or any of the parent directories): .git
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo
+$ ls
+Design-Patterns/
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo
+$ cd Design-Patterns/
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git commit -m "first commit"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        DesignPatterns/
+        HotelsRepo/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git remote add
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch> master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git push -u origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git remote add
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch> master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git remote add origin https://github.com/aiescharya/Design-Patterns.git
+error: remote origin already exists.
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git push -u origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git push -u origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git add .
+warning: in the working copy of 'DesignPatterns/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'HotelsRepo/.gitignore', LF will be replaced by CRLF the next time Git touches it
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git push -u origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git push
+Everything up-to-date
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git log origin/master..HEAD
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git commit -m "test"
+[master d9d1b68] test
+ 31 files changed, 992 insertions(+)
+ create mode 100644 DesignPatterns/.gitignore
+ create mode 100644 DesignPatterns/.idea/.gitignore
+ create mode 100644 DesignPatterns/.idea/encodings.xml
+ create mode 100644 DesignPatterns/.idea/misc.xml
+ create mode 100644 DesignPatterns/.idea/uiDesigner.xml
+ create mode 100644 DesignPatterns/pom.xml
+ create mode 100644 DesignPatterns/src/main/java/org/example/AbstractComponent/AbstractComponent.java
+ create mode 100644 DesignPatterns/src/main/java/org/example/AbstractComponent/SearchFlightAvail.java
+ create mode 100644 DesignPatterns/src/main/java/org/example/AbstractComponent/StrategyFactor.java
+ create mode 100644 DesignPatterns/src/main/java/org/example/DataLoads/DataReader.java
+ create mode 100644 DesignPatterns/src/main/java/org/example/DataLoads/reservationDetails.json
+ create mode 100644 DesignPatterns/src/main/java/org/example/PageComponents/FooterNav.java
+ create mode 100644 DesignPatterns/src/main/java/org/example/PageComponents/MultiTrip.java
+ create mode 100644 DesignPatterns/src/main/java/org/example/PageComponents/NavigationBar.java
+ create mode 100644 DesignPatterns/src/main/java/org/example/PageComponents/RoundTrip.java
+ create mode 100644 DesignPatterns/src/main/java/org/example/PageObjects/TravelHomePage.java
+ create mode 100644 DesignPatterns/src/test/java/org/example/AppTest.java
+ create mode 100644 DesignPatterns/src/test/java/org/example/BaseTest.java
+ create mode 100644 DesignPatterns/src/test/java/org/example/DataLoads/DataReader.java
+ create mode 100644 DesignPatterns/src/test/java/org/example/DataLoads/reservationDetails.json
+ create mode 100644 DesignPatterns/src/test/java/org/example/DemoTest.java
+ create mode 100644 HotelsRepo/.gitignore
+ create mode 100644 HotelsRepo/.idea/.gitignore
+ create mode 100644 HotelsRepo/.idea/encodings.xml
+ create mode 100644 HotelsRepo/.idea/misc.xml
+ create mode 100644 HotelsRepo/pom.xml
+ create mode 100644 HotelsRepo/src/main/java/org/rsaTest/App.java
+ create mode 100644 HotelsRepo/src/test/java/org/rsaTest/AppTest.java
+ create mode 100644 HotelsRepo/src/test/java/org/rsaTest/DataLoads/DataReader.java
+ create mode 100644 HotelsRepo/src/test/java/org/rsaTest/DataLoads/reservationDetails.json
+ create mode 100644 HotelsRepo/src/test/java/org/rsaTest/SampleTest.java
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git add .
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git push -u origin master
+Enumerating objects: 54, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (38/38), done.
+Writing objects: 100% (53/53), 9.64 KiB | 897.00 KiB/s, done.
+Total 53 (delta 7), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (7/7), done.
+To https://github.com/aiescharya/Design-Patterns.git
+   b8384be..d9d1b68  master -> master
+branch 'master' set up to track 'origin/master'.
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git commit -m "testfile added"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        DesignPatterns/testfile.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git add .
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git push
+Everything up-to-date
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git pus
+git: 'pus' is not a git command. See 'git --help'.
+
+The most similar commands are
+        push
+        pull
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git push
+Everything up-to-date
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git log origin/master..HEAD
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git add  DesignPatterns/testfile.txt
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git push
+Everything up-to-date
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git push -u origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 393 bytes | 393.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/aiescharya/Design-Patterns.git
+   d9d1b68..acb2537  master -> master
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$  git reset --hard HEAD~1
+HEAD is now at d9d1b68 test
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git push
+To https://github.com/aiescharya/Design-Patterns.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/aiescharya/Design-Patterns.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ git push --force origin master
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/aiescharya/Design-Patterns.git
+ + acb2537...d9d1b68 master -> master (forced update)
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ cd ""C:\Users\aiescharya.gunasekar\Documents\repo2"
+> ^C
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo/Design-Patterns (master)
+$ cd "C:\Users\aiescharya.gunasekar\Documents\repo2"
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2
+$ git clone https://github.com/aiescharya/Design-Patterns.git
+Cloning into 'Design-Patterns'...
+remote: Enumerating objects: 56, done.
+remote: Counting objects: 100% (56/56), done.
+remote: Compressing objects: 100% (32/32), done.
+remote: Total 56 (delta 7), reused 53 (delta 7), pack-reused 0
+Receiving objects: 100% (56/56), 10.48 KiB | 2.62 MiB/s, done.
+Resolving deltas: 100% (7/7), done.
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2
+$ git commit -m "comment"
+fatal: not a git repository (or any of the parent directories): .git
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2
+$ cd Design-Patterns/
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$ git commit -m "comment"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   DesignPatterns/src/test/java/org/example/AppTest.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   DesignPatterns/src/test/java/org/example/AppTest.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$ git add *
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   DesignPatterns/src/test/java/org/example/AppTest.java
+
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$ git push
+Everything up-to-date
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$ git push origin master
+Everything up-to-date
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$ git add .
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$ git push origin master
+Everything up-to-date
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   DesignPatterns/src/test/java/org/example/AppTest.java
+
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$ git push --force origin
+Everything up-to-date
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$ git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 10.79 KiB | 581.00 KiB/s, done.
+From https://github.com/aiescharya/Design-Patterns
+   d9d1b68..4d9aa97  master     -> origin/master
+Updating d9d1b68..4d9aa97
+Fast-forward
+ Phone number validations.docx | Bin 0 -> 12730 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Phone number validations.docx
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$ git commit -m "phone lines deleted"
+[master f0b360c] phone lines deleted
+ 1 file changed, 1 insertion(+)
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$ git push
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (9/9), 600 bytes | 300.00 KiB/s, done.
+Total 9 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/aiescharya/Design-Patterns.git
+   4d9aa97..f0b360c  master -> master
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$ git fetch
+From https://github.com/aiescharya/Design-Patterns
+ * [new branch]      new-release -> origin/new-release
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$ git checkout
+M       Phone number validations.docx
+Your branch is up to date with 'origin/master'.
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$ git checkout new-release
+Switched to a new branch 'new-release'
+M       Phone number validations.docx
+branch 'new-release' set up to track 'origin/new-release'.
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (new-release)
+$ git commit -m "read me change"
+On branch new-release
+Your branch is up to date with 'origin/new-release'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Phone number validations.docx
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (new-release)
+$ git status
+On branch new-release
+Your branch is up to date with 'origin/new-release'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Phone number validations.docx
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (new-release)
+$ git push
+Everything up-to-date
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (new-release)
+$ git commit -a
+[new-release f453c7e] changeed read me:::
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (new-release)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 3.62 KiB | 3.62 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/aiescharya/Design-Patterns.git
+   f0b360c..f453c7e  new-release -> new-release
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (new-release)
+$ git checkout -b mynewb
+Switched to a new branch 'mynewb'
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (mynewb)
+$ git push
+fatal: The current branch mynewb has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin mynewb
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (mynewb)
+$
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (mynewb)
+$  git push --set-upstream origin mynewb
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'mynewb' on GitHub by visiting:
+remote:      https://github.com/aiescharya/Design-Patterns/pull/new/mynewb
+remote:
+To https://github.com/aiescharya/Design-Patterns.git
+ * [new branch]      mynewb -> mynewb
+branch 'mynewb' set up to track 'origin/mynewb'.
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (mynewb)
+$ git commit -a
+[mynewb bb4cc40] added lot of ffffffs
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (mynewb)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 277 bytes | 277.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/aiescharya/Design-Patterns.git
+   f453c7e..bb4cc40  mynewb -> mynewb
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (mynewb)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$ git pull
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (1/1), 910 bytes | 113.00 KiB/s, done.
+From https://github.com/aiescharya/Design-Patterns
+   f0b360c..ccfa754  master     -> origin/master
+Updating f0b360c..ccfa754
+Fast-forward
+ Phone number validations.docx | Bin 12730 -> 12600 bytes
+ README.md                     |   2 +-
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$ git commit -a
+[master 2af2d7a] added lot of hhhhhhs
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 275 bytes | 275.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/aiescharya/Design-Patterns.git
+   ccfa754..2af2d7a  master -> master
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$ git pull
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 1.82 KiB | 84.00 KiB/s, done.
+From https://github.com/aiescharya/Design-Patterns
+   2af2d7a..de0f58c  master     -> origin/master
+   bb4cc40..766130f  mynewb     -> origin/mynewb
+Updating 2af2d7a..de0f58c
+Fast-forward
+ README.md | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+CORPORATE_NT+aiescharya.gunasekar@4MH7GB3 MINGW64 ~/Documents/repo2/Design-Patterns (master)
+$
